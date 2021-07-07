@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LogDlg</class>
+ <widget class="QDialog" name="LogDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1560</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTextEdit" name="teCenterlog">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>40</y>
+     <width>300</width>
+     <height>380</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="teCameralog">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>40</y>
+     <width>300</width>
+     <height>380</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="teLIClog">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>300</width>
+     <height>380</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="teRecoglog">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>40</y>
+     <width>300</width>
+     <height>380</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="chkLIC">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>61</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LIC</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="chkCCU">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>10</y>
+     <width>61</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CCU</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="chkCamera">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Camera</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="chkRecognition">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>10</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Recognition</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="chkCenter">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>10</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Center</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="teCCUlog">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>40</y>
+     <width>300</width>
+     <height>380</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

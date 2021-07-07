@@ -1,0 +1,38 @@
+#ifndef LOGGER_H
+#define LOGGER_H
+
+#include <QObject>
+#include <QFile>
+#include <QDir>
+#include <QCoreApplication>
+#include <QDateTime>
+#include <QTextStream>
+#include <QDebug>
+#include <syslog.h>
+
+class yslogger : public QObject
+{
+    Q_OBJECT
+
+public:
+    explicit Logger(QObject *parent = 0);
+    explicit Logger(QObject *parent,QString ident,bool showDate);
+    explicit Logger(QObject *parent,QString ident,bool showDate,int loglevel);
+    ~Logger();
+    void write(QString value,int loglevel = LOG_DEBUG);
+
+
+public:
+    bool m_showDate;
+    //로그레벨보다 높으면 저장함.
+    int m_loglevel;
+    int m_limitwritetime;
+
+private:
+    QString m_ident;
+
+signals:
+
+};
+
+#endif // LOGGER_H

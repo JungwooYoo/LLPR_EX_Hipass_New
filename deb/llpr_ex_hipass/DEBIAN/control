@@ -1,0 +1,9 @@
+Package: llpr-ex-hipass
+Version: 1.2.6.7
+Architecture: arm64
+Maintainer: inpegvision
+Section: unkown
+Priority: optional
+Homepage: http://www.inpeg.com
+Description: EX HIPASS PROGRAM 
+Original-Maintainer: dongwon seo <dwseo@inpeg.com>
